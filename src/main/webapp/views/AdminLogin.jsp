@@ -29,8 +29,8 @@
 
     <!-- Login Form -->
   <form:form action="adminlogin"  method="GET"   modelAttribute="admin">
-      <form:input path="adminUserName" type="text" id="login" class="fadeIn second" name="login" placeholder="login"></form:input>
-      <form:input  path="passwordAdmin" type="text" id="password" class="fadeIn third" name="login" placeholder="password"></form:input>
+      <form:input path="adminUserName" type="text" id="login" class="fadeIn second" name="login" placeholder="login..."></form:input>
+      <form:input  path="passwordAdmin" type="text" id="password" class="fadeIn third" name="login" placeholder="password..."></form:input>
       <input type="submit" class="fadeIn fourth" value="Log In">
       <p style="color:red">${msg}</p>
     </form:form>
