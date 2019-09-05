@@ -64,10 +64,10 @@ float: center;
 				<h2 style="margin-top:-2px;">REGISTER</h2>
 				<form:form action="saveUser"  method="POST"  modelAttribute="user">
 				
-				<form:input path="userName" type="text" placeholder="User Name" value="Shubham"></form:input>
+				<form:input path="userName" type="text" placeholder="User Name" value="Simran"></form:input>
 				 <form:errors path="userName" cssClass="error"></form:errors>
 				
-				<form:input path="password" type="text" placeholder="Password" value="Shubham"></form:input>
+				<form:input path="password" type="text" placeholder="Password" value="Simran"></form:input>
 				 <form:errors path="password" cssClass="error"></form:errors>
 				
 				<form:input path="email" type="text" placeholder="email" value="sh@gmail.com"></form:input>
